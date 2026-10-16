@@ -1,0 +1,288 @@
+Microsoft Windows [versão 10.0.26200.9457] 
+
+(c) Microsoft Corporation. Todos os direitos reservados. 
+
+  
+
+C:\Users\gabri>cd C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>cd C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git checkout -b feature/novo-produto 
+
+Switched to a new branch 'feature/novo-produto' 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git branch 
+
+* feature/novo-produto 
+
+  main 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>* feature/novo-produto 
+
+'*' não é reconhecido como um comando interno 
+
+ou externo, um programa operável ou um arquivo em lotes. 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>echo Atualizacao do cadastro de produtos > vendas.md 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git add vendas.md 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git commit -m "Adiciona atualização no cadastro de produtos" 
+
+[feature/novo-produto 3cf6a0b] Adiciona atualização no cadastro de produtos 
+
+1 file changed, 1 insertion(+) 
+
+create mode 100644 vendas.md 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git push -u origin feature/novo-produto 
+
+Enumerating objects: 4, done. 
+
+Counting objects: 100% (4/4), done. 
+
+Delta compression using up to 12 threads 
+
+Compressing objects: 100% (2/2), done. 
+
+Writing objects: 100% (3/3), 386 bytes | 386.00 KiB/s, done. 
+
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0) 
+
+remote: 
+
+remote: To create a merge request for feature/novo-produto, visit: 
+
+remote:   https://gitlab.com/gabrielsilvatr1m001-sudo/gqs-cm-2026-2-gabrielc/-/merge_requests/new?merge_request%5Bsource_branch%5D=feature%2Fnovo-produto 
+
+remote: 
+
+To https://gitlab.com/gabrielsilvatr1m001-sudo/gqs-cm-2026-2-gabrielc.git 
+
+* [new branch]      feature/novo-produto -> feature/novo-produto 
+
+branch 'feature/novo-produto' set up to track 'origin/feature/novo-produto'. 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc> 
+
+ 
+
+C:\Users\gabri>git --version 
+
+git version 2.55.0.windows.5 
+
+  
+
+C:\Users\gabri>C:\Users\gabri> 
+
+A sintaxe do comando está incorreta. 
+
+  
+
+C:\Users\gabri>mkdir pratica_04 
+
+  
+
+C:\Users\gabri>cd pratica_04 
+
+  
+
+C:\Users\gabri\pratica_04> 
+
+C:\Users\gabri\pratica_04>git clone https://gitlab.com/gabrielsilvatr1m001-sudo/gqs-cm-2026-2-gabrielc.git 
+
+Cloning into 'gqs-cm-2026-2-gabrielc'... 
+
+info: please complete authentication in your browser... 
+
+remote: Enumerating objects: 3, done. 
+
+remote: Counting objects: 100% (3/3), done. 
+
+remote: Compressing objects: 100% (2/2), done. 
+
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0) 
+
+Receiving objects: 100% (3/3), done. 
+
+  
+
+C:\Users\gabri\pratica_04>cd gqs-cm-2026-2-gabrielc 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git branch 
+
+* main 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git status 
+
+On branch main 
+
+Your branch is up to date with 'origin/main'. 
+
+  
+
+nothing to commit, working tree clean 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>echo # Cadastro de produtos > produtos.md 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>dir 
+
+O volume na unidade C é Windows-SSD 
+
+O Número de Série do Volume é 168E-93FB 
+
+  
+
+Pasta de C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc 
+
+  
+
+25/09/2026  20:59    <DIR>          . 
+
+25/09/2026  20:51    <DIR>          .. 
+
+25/09/2026  20:59                25 produtos.md 
+
+25/09/2026  20:54             6.176 README.md 
+
+               2 arquivo(s)          6.201 bytes 
+
+               2 pasta(s)   272.030.842.880 bytes disponíveis 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git add produtos.md 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git status 
+
+On branch main 
+
+Your branch is up to date with 'origin/main'. 
+
+  
+
+Changes to be committed: 
+
+  (use "git restore --staged <file>..." to unstage) 
+
+        new file:   produtos.md 
+
+  
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>]git commit -m "Adiciona cadastro de produtos" 
+
+']git' não é reconhecido como um comando interno 
+
+ou externo, um programa operável ou um arquivo em lotes. 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git commit -m "Adiciona cadastro de produtos" 
+
+[main c58723d] Adiciona cadastro de produtos 
+
+1 file changed, 1 insertion(+) 
+
+create mode 100644 produtos.md 
+
+  
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc>git push origin main 
+
+Enumerating objects: 4, done. 
+
+Counting objects: 100% (4/4), done. 
+
+Delta compression using up to 12 threads 
+
+Compressing objects: 100% (2/2), done. 
+
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done. 
+
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0) 
+
+To https://gitlab.com/gabrielsilvatr1m001-sudo/gqs-cm-2026-2-gabrielc.git 
+
+   f46009a..c58723d  main -> main  
+
+
+## 1. Verificação da instalação do Git
+
+```bash
+git --version
+```
+
+## 2. Clonagem do repositório
+
+```bash
+mkdir pratica_04
+cd pratica_04
+git clone https://gitlab.com/gabrielsilvatr1m001-sudo/gqs-cm-2026-2-gabrielc.git
+cd gqs-cm-2026-2-gabrielc
+```
+
+## 3. Criação e envio do cadastro de produtos
+
+```bash
+git branch
+git status
+echo # Cadastro de produtos > produtos.md
+git add produtos.md
+git commit -m "Adiciona cadastro de produtos"
+git push origin main
+```
+
+## 4. Criação da branch de funcionalidade
+
+```bash
+git checkout -b feature/novo-produto
+git branch
+```
+
+## 5. Criação e envio da alteração
+
+```bash
+echo Atualizacao do cadastro de produtos > vendas.md
+git add vendas.md
+git commit -m "Adiciona atualização no cadastro de produtos"
+git push -u origin feature/novo-produto
+```
+
+## 6. Merge Request e Code Review
+
+Após enviar a branch, foi criado o Merge Request com o título (Adiciona atualização no cadastro de produtos).
+
+As outras pessoas foram adicionadas ao projeto com permissão para acessar o repositório. Foram realizados os comentários e aprovação durante a revisão.
+
+C:\Users\gabri\pratica_04\gqs-cm-2026-2-gabrielc> 
